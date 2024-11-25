@@ -1,0 +1,49 @@
+.container {
+    height: 100vh;
+    margin: auto;
+    width: 100%;
+    
+}
+
+h3 {
+    font-size: 1.6rem;
+    font-weight: 400;
+    font-style: italic;
+    margin-top: 10rem;
+    margin-bottom: 10px;
+}
+
+hr {
+    width: 50px;
+    text-align: center;
+    margin-bottom: 10rem;
+    position: relative;
+    left: 47%; 
+    height: 4px;
+    background-color: blue;
+}
+
+.btn {
+    padding: 8px 20px;
+    border-radius: 2rem;
+    font-size: 1.3rem;
+    background-color: rgb(122, 36, 202);
+    color: whitesmoke;
+    cursor: pointer;
+}
+
+.btn:hover {
+    background-color: rgb(159, 74, 238);
+    color: black;
+}
+
+@media (min-width: 720px) {
+
+    h3 {
+        font-size: 2rem;
+    }
+
+    .btn {
+        font-size: 1.7rem;
+    }
+}
